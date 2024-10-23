@@ -1,11 +1,33 @@
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/table.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 h1 {
     color: goldenrod;
 }
 
+button {
+    background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #3d773e;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+}
+
 #message-el {
-    
+font-style: italic;
+}
+
+#message-el, #cards-el, #sum-el, #player-el {
+    margin-bottom: 20px;
+    font-size: 1.2em;
 }
