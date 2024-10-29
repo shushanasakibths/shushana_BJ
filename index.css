@@ -7,6 +7,15 @@ body {
     font-weight: bold;
 }
 
+.game-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    color: black;
+}
+
 h1 {
     color: goldenrod;
 }
@@ -24,10 +33,26 @@ button {
 }
 
 #message-el {
-font-style: italic;
+    font-style: italic;
 }
 
 #message-el, #cards-el, #sum-el, #player-el {
     margin-bottom: 20px;
     font-size: 1.2em;
+}
+
+#stats {
+    margin-top: 20px;
+    color: #333;
+}
+
+#stats h2 {
+    color: goldenrod;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+#stats p {
+    font-size: 1em;
+    margin: 5px 0;
 }

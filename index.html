@@ -4,18 +4,26 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Blackjack</h1>
-        <p id="message-el">Want to play a round?</p>
-        <p id="cards-el">Cards:</p>
-        <p id="sum-el">Sum:</p>
-        <p id="player-el"></p>
+        <div class="game-container">
+            <h1>Blackjack</h1>
+            <p id="message-el">Want to play a round?</p>
+            <p id="cards-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+            <p id="player-el"></p>
 
-        <!-- 1. Create a Start Game button, that activates newCard() on click -->
-        <button onclick="startGame()">Start Game</button>
+            <!-- 1. Create a Start Game button, that activates newCard() on click -->
+            <button onclick="startGame()">Start Game</button>
         
-         <!-- 2. Create a New Card button that activates newCard() on click -->
-        <button onclick="newCard()">New Card</button>
-
+            <!-- 2. Create a New Card button that activates newCard() on click -->
+            <button onclick="newCard()">New Card</button>
+            <div id="stats">
+                <h2>Game Stats</h2>
+                <p id="last-scores">Last Scores: </p>
+                <p id="min-score">Minimum Score: </p>
+                <p id="max-score">Maximum Score: </p>
+                <p id="average-score">Average Score: </p>
+            </div>
+        </div>            
         <script src="index.js"></script>
     </body>
 </html>
